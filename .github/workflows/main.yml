@@ -1,8 +1,9 @@
 name: development
 
 
-on: pull_request
-
+on: 
+  push:
+    branches: [ "main" ]
 
 jobs:
   cancel:
